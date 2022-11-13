@@ -222,6 +222,98 @@ main section img {
     box-sizing: border-box;
 }
 
+/*    Page 2     */
+
+#villain {
+    display: grid;
+    grid-template-columns: 2fr 3fr  2fr;
+    
+}
+#villain-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+
+}
+
+
+#villain-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    background-color: #7DC4D5;
+    opacity: .9;
+    
+
+}
+
+#villain-img{
+    width: 100%;
+    
+}
+#villain-msg h1{
+
+    color: #154467;
+}
+
+
+#villain-msg h1, #villain-msg h4{
+    text-align: center;
+    opacity: 1;
+    
+}
+
+.page2-title{
+    font-family: "Yanone Kaffeesatz", Arial, sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.calendar_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #7DC4D5;
+    text-align: center;
+    font-family: "Yanone Kaffeesatz", Arial, sans-serif;
+}
+
+#year {
+    display: grid;
+    
+    background-color: #154467;
+    text-align: center;
+    color: #7DC4D5;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 2em;
+    margin: 0;
+
+    
+
+}
+.calendar_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #E6E5C8;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+#background_2{    
+    height: 250px;
+    background-color: #7DC4D5;
+    margin: 0%;
+    text-align: center;
+    padding-top: 5%;
+    padding: 5%;
+    
+    }
+#background_2 h4{
+    color: #154467;
+
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
