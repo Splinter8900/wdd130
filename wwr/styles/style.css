@@ -251,13 +251,13 @@ main section img {
     width: 100%;
     
 }
-#villain-msg h1{
+#villain-msg h2{
 
     color: #154467;
 }
 
 
-#villain-msg h1, #villain-msg h4{
+#villain-msg h2, #villain-msg h4{
     text-align: center;
     opacity: 1;
     
@@ -271,7 +271,7 @@ main section img {
     
 }
 
-.calendar_1{
+.calendar_1,.calendar_2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #7DC4D5;
@@ -279,7 +279,7 @@ main section img {
     font-family: "Yanone Kaffeesatz", Arial, sans-serif;
 }
 
-#year {
+#year_2022,#year_2023 {
     display: grid;
     
     background-color: #154467;
@@ -292,7 +292,7 @@ main section img {
     
 
 }
-.calendar_info{
+.calendar_info,.calendar_info_2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background: #E6E5C8;
