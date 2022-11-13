@@ -249,7 +249,7 @@ main section img {
 
 #villain-img{
     width: 100%;
-    
+    align-self: center;
 }
 #villain-msg h2{
 
