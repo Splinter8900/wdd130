@@ -71,6 +71,7 @@ nav a:hover{
 }
 
 
+
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -139,13 +140,17 @@ body{
     margin-bottom: 15px;
     
 }
-.tutorial-message{
+
+
+
+#tutorial-message{
     grid-column: 1/11;
     background:#311FA6;
     padding: 3% 5%;
     text-indent: 5%;
     color: #0ABF37;
     box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
     
 }
 

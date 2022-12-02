@@ -44,9 +44,9 @@
             <div class="background"></div>
             <img class="welcome-img" src="images/rsz_1diverse-people-having-fun-with-video-games-online-tv-console-playing-gaming-competition-challenge-using-gameplay-enjoy-gathering-with-friends-home-drinking-beer.jpg" alt="Group of people playing games">
 
-            <div id="help">Help</div>
-
-            <ul class="tutorial-message">
+            
+            <button id="help" onclick="myFunction()">Help</button>
+            <ul id="tutorial-message">
                 
                 <li>   If you are new to gaming, or are just seeking out more information, such as, tips and tricks on many of the most popular competitive videogames 
                     of the day, you can click on the link above to our games page. There you will find breif descriptions 
@@ -62,6 +62,16 @@
 
             </ul>
             
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("tutorial-message");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+                </script>
 
         </main>
         <footer>
