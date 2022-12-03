@@ -190,6 +190,10 @@ body{
 
 }
 
+#card a:hover{
+    background-color: black;
+    color: #0ABF37;
+}
 
 footer{
     padding: 25px 50px;
