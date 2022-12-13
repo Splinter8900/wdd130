@@ -174,7 +174,7 @@ body{
 
 }
 
-#card {
+.card {
     padding: 50px;
     background-color: #311FA6;
     color: #0ABF37;
@@ -193,7 +193,7 @@ body{
 
 }
 
-#card a:hover{
+.card a:hover{
     background-color: black;
     color: #0ABF37;
 }
